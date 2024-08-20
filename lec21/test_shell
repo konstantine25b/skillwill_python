@@ -1,0 +1,33 @@
+#! /bin/bash
+
+rame=rameaooo
+echo hello i am kosa
+read name 
+echo ur name is $name and $rame
+
+pwd
+hostname
+whoami
+ls -l
+
+
+
+# aq if elsebi
+
+
+count=100
+
+if [ $count -eq 100 ]
+  then
+    echo count is 100
+  else
+     echo count is not 100
+
+fi
+
+
+for i in 1 2 3 4 5
+do 
+  echo $i
+done
+
