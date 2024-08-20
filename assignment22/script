@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Simulating a conversation
+echo "Hello! What is your name?"
+read name
+
+echo "Nice to meet you, $name! How are you today? (good/bad)"
+read mood
+
+# IF-THEN constructions
+if [ "$mood" == "good" ]; then
+    echo "I'm glad to hear that you're doing well, $name!"
+elif [ "$mood" == "bad" ]; then
+    echo "Sorry to hear that you're not feeling well, $name. Hope things get better soon!"
+else
+    echo "I couldn't understand your response. Please try again."
+fi
+
+echo "Do you have anything else to add? (yes/no)"
+read response
+
+if [ "$response" == "yes" ]; then
+    echo "Feel free to share anything you'd like!"
+else
+    echo "Alright, thank you for the chat!"
+fi
