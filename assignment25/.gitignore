@@ -1,0 +1,36 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Virtual environment folders
+venv/
+env/
+
+# Django specific files
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+staticfiles/
+media/
+
+# VSCode specific settings
+.vscode/
+
+# MacOS specific files
+.DS_Store
+
+# JetBrains specific settings
+.idea/
+
+# Ignore node_modules (if using JavaScript)
+node_modules/
+
+# Ignore Docker-related files
+*.env
+docker-compose.yml
+Dockerfile
