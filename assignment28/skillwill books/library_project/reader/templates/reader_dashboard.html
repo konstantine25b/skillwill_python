@@ -1,0 +1,9 @@
+<h1>Welcome, {{ reader.user.username }}!</h1>
+<h2>Your favorite genre: {{ reader.favorite_genre }}</h2>
+
+<h3>Books you might like:</h3>
+<ul>
+    {% for book in books %}
+        <li>{{ book.title }} by {{ book.author }}</li>
+    {% endfor %}
+</ul>
